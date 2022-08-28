@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    position: relative;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
@@ -98,4 +99,10 @@ body {
 }
 .delete img {
     width: 20px;
+}
+.license {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
 }
