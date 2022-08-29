@@ -149,6 +149,10 @@ equal.addEventListener('click', function () {
 })
 
 dot.addEventListener('click', function() {
+    let lastSymbol = display.innerText[display.innerText.length - 1]
+    if(lastSymbol == '.'){
+        return
+    }
     currentNumber += '.'
     display.innerText += '.'
 })
